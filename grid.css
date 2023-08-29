@@ -27,10 +27,10 @@
   .item1{
     background-color: red;
     margin-left: 10px;
-  }
-  
-  .item1 audio{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
   }
   .item1 p{
     font-weight: 700;
